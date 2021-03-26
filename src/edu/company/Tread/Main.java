@@ -23,7 +23,7 @@ public class Main {
         }
 
     }
-    // server
+    
     private static HttpServer makeServer() throws IOException {
         String host = "localhost";
         InetSocketAddress address = new InetSocketAddress(host, 8080);
