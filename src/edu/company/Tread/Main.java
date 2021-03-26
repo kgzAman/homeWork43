@@ -23,7 +23,7 @@ public class Main {
         }
 
     }
-    
+
     private static HttpServer makeServer() throws IOException {
         String host = "localhost";
         InetSocketAddress address = new InetSocketAddress(host, 8080);
@@ -41,7 +41,7 @@ public class Main {
         server.createContext("/apps/profile",Main::handle3);
     }
 
-// handle
+
     public static void handle(HttpExchange exchange) throws IOException {
             try (Writer writer =  getWriterFrom(exchange)){
             String method =exchange.getRequestMethod();
