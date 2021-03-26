@@ -87,7 +87,7 @@ public class Main {
             e.printStackTrace();
         }
     }
-
+//writer 
      public static Writer getWriterFrom(HttpExchange exchange){
         OutputStream output = exchange.getResponseBody();
         Charset charset = StandardCharsets.UTF_8;
