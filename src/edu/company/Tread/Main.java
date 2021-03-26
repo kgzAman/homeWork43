@@ -58,7 +58,7 @@ public class Main {
                 e.printStackTrace();
             }
     }
-//handle for img
+
     public static void handle2(HttpExchange exchange) throws IOException {
         Path path = Path.of("fiels\\1.jpg");
         byte[] fileBytes = Files.readAllBytes(path);
